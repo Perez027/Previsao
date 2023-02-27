@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    display: flex;/*controla o que aparece na tela, o FLEX te libera pra editar os itens da tela*/
+    justify-content: center;/*justifica o centro*/
+    align-items: center; /*alinahmento de itens*/
+    height: 100vh; /* altura/ vh = medida de altura*/
+    width: 100vw; /*largura/ vw = medida de largura*/
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+.conteiner {
+    background-color: #000; /* cor de fundo*/
+    width: 430px; /*largura*/
+    opacity: 0.8; /*transparencia do item*/
+    padding: 20px;
+    border-radius: 25px;
+}
+input {
+    border: none; /* birda do elemento*/
+    outline: none; /* linha azul de selecionar o elemento*/
+    padding: 10px; /* espacamento interno*/
+    border-radius: 24px; /*arredondamento de borda*/
+    font-size: 20px; /*tamanho do texto dentro do input*/
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #7c7c7c6b;
+}
+.caixa-media{
+    margin-top: 20px;
+}
+.nuvem{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+.lupa{
+    height: 25px;
+
+}
+h2 {
+    color: #ffffff;
+    font-size: 28px;
+}
+.temperatura {
+    color: #ffffff;
+    margin-top: 20px;
+}
+.descricao {
+    color: #ffffff;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+}
